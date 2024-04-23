@@ -1,10 +1,17 @@
 ﻿
 long numero;
 long n1, n2;
-long n3; 
+long n3;
 
-Console.WriteLine("Digite um número: ");
-numero = long.Parse(Console.ReadLine());
+do
+{
+    Console.WriteLine("Digite um número: ");
+    numero = long.Parse(Console.ReadLine());
+    if (numero <= 0 )
+    {
+        Console.WriteLine("O número não ser menor ou igual a zero.");
+    }
+} while (numero <= 0);
 
 Console.WriteLine("\n Sequencia Fibonacci: ");
 
