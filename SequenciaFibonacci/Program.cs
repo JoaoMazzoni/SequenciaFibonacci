@@ -12,7 +12,7 @@ do
     }
 } while (numeroPos <= 0);
 
-Console.WriteLine("\n Sequencia Fibonacci: ");
+Console.WriteLine("\nSequencia Fibonacci: ");
 
 for (int i = 0; i < numeroPos; i++)
 {
