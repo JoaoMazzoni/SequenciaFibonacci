@@ -1,6 +1,6 @@
 ﻿
 long numeroPos;
-long penultimo = -1, ultimo = 0,  atual;
+long penultimo = -1, ultimo = 1,  atual;
 
 do
 {
